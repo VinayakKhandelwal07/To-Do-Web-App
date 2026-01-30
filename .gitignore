@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.sqlite3
+
+# OS
+.DS_Store
+todo.db
+
+# Firebase secrets
+backend/firebase_key.json
