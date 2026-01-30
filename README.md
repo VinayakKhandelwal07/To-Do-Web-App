@@ -17,7 +17,7 @@ Perform full CRUD operations
 
 Maintain an organized task workflow
 
-Tech Stack
+# Tech Stack
 Layer	Technology
 Frontend	React.js
 Backend	FastAPI (Python)
@@ -29,6 +29,7 @@ User Authentication
 Secure email-based login using Firebase
 
 User-specific access to boards and to-dos
+
 
 Board Management
 
@@ -60,21 +61,32 @@ Responsive and user-friendly UI
 
 Project Structure
 frontend/
+
 ├── src/
 │   ├── components/        # Reusable UI components
+
 │   ├── pages/             # Login, Dashboard, Board pages
+
 │   ├── services/          # API & Firebase services
+
 │   └── App.js
+
 └── package.json
 
 ## 
 backend/
 ├── app/
+
 │   ├── main.py            # Application entry point
-│   ├── models.py          # Database models
+
+│   ├── models.py          # Database 
+
 │   ├── schemas.py         # Pydantic schemas
+
 │   ├── routes.py          # API routes
+
 │   └── database.py        # Database configuration
+
 └── requirements.txt
 
 README.md
@@ -90,7 +102,7 @@ SQL database (SQLite recommended for development)
 
 Firebase project with Email Authentication enabled
 
-Backend Setup
+# Backend Setup
 cd backend
 python -m venv venv
 
@@ -100,11 +112,9 @@ Activate virtual environment:
 # Windows
 venv\Scripts\activate
 
-# macOS/Linux
-source venv/bin/activate
 
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 
@@ -145,8 +155,3 @@ Edit or delete boards and tasks
 Mark tasks as completed
 
 
-
-
-Commit message guide
-
-Bas bol 👊
