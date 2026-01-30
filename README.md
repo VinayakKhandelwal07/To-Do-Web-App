@@ -1,4 +1,4 @@
-📝 To-Do Web App
+# To-Do Web App
 Project Overview
 
 To-Do Web App is a modern task management application that allows users to organize their tasks using boards and to-dos. Users can securely log in using email authentication and efficiently manage tasks with a clean and intuitive interface.
@@ -67,6 +67,7 @@ frontend/
 │   └── App.js
 └── package.json
 
+## 
 backend/
 ├── app/
 │   ├── main.py            # Application entry point
